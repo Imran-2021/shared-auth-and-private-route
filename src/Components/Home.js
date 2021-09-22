@@ -1,7 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useHistory } from 'react-router-dom';
 
 const Home = () => {
+    const history = useHistory()
+    const handleGO=()=>{
+        history.push('/home2')
+    }
     return (
         <div style={{margin:"20px"}}>
             <h2>this is <span style={{color:"red"}}>home</span></h2>
@@ -9,8 +13,11 @@ const Home = () => {
             <br />
             <hr />
             <br />
-            <Link to="/home2"><button>home -2</button></Link>
-            <Link  style={{marginLeft:"10px"}} to="/home3"><button>home -3</button></Link>
+            {/* <Link to="/home2"><button>home -2</button></Link> */}
+            {/* <Link   to="/home3"><button>home -3</button></Link> */}
+            {/* <Link to="/logIn" style={{marginLeft:"10px"}}><button>LogIn form</button></Link> */}
+         
+            <button style={{marginLeft:"10px"}} onClick={handleGO}>home2</button>
         </div>
     );
 };
