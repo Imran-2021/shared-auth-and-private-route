@@ -16,7 +16,10 @@ const Home2 = () => {
             <hr />
             <br />
             <Link to="/home"><button>home</button></Link>
+            
             {/* <Link  style={{marginLeft:"10px"}} to="/home3"><button>home -3</button></Link> */}
+            <button onClick={()=>setLoggedInUser({})} style={{marginLeft:"10px"}}>SignOut</button>
+            <Link to="/shippment"><button style={{marginLeft:"10px"}}>Shippment</button></Link>
         </div>
     );
 };

@@ -9,6 +9,7 @@ import Home from "./Components/Home";
 import Home2 from "./Components/Home2";
 import Home3 from "./Components/Home3";
 import PrivateRoute from "./Components/PrivateRoute";
+import Shippment from "./Components/Shippment";
 import LogIn from "./LogIn";
 export const userContext = createContext();
 function App() {
@@ -30,6 +31,9 @@ function App() {
           <Route path="/logIn">
             <LogIn />
           </Route>
+          <PrivateRoute path="/shippment">
+            <Shippment />
+          </PrivateRoute>
           <Route exact path="/">
             <Home />
           </Route>
