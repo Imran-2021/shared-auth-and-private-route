@@ -12,3 +12,7 @@
 ![4](https://user-images.githubusercontent.com/76750607/134459742-a6f39049-c547-4141-b5a4-5bda4e16bedb.png)
 
 ## here showing every process of privateRoute and auth.using google . 
+
+## shippment page usikng react hook form - 
+
+![Screenshot 2021-09-23 144315](https://user-images.githubusercontent.com/76750607/134478372-7a44f7ee-e269-4ccc-af68-ef43e54b5346.png)
